@@ -1,0 +1,150 @@
+*{
+	padding: 0 auto;
+	margin: 10px auto;
+	font-family: sans-serif;
+
+}
+/*header start*/
+header{
+	padding: 10px;
+}
+.wrapper {
+	width: 90%;
+	overflow: hidden;
+}
+
+.logo {
+	width: 25%;
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 75%;
+	float: left;
+
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	padding: 20px;
+	display: block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #636D77;
+	transition: .5s;
+}
+.menu ul li a:hover {
+	color: black;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+.form{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    float: left;
+    background-color: rgba(0,0,0,.3);
+    padding: 15px;
+}
+.form h2{
+	text-transform: uppercase;
+	line-height: 1.5;
+	color: white;
+}
+
+.form h4{
+	text-transform: capitalize;
+	color: white;
+	font-weight: 300;
+}
+
+.form button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.3);
+    padding: 5px;
+    transition: .6s;
+}
+
+.form button:hover {
+	color: white;
+	cursor: pointer;
+}
+/*banner end*/
+/*service start*/
+.service{
+	width: 90%;
+}
+
+.ser-1{
+    width: 30%;
+    float: left;
+    margin: 18px;
+}
+
+.ser-1 h3{
+	text-align: center;
+	color: #95918E;
+}
+
+.ser-1 img{
+	margin: 0 auto;
+	display: block;
+}
+
+.ser-1 p{
+    color: #95918E;
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.ser-1 button{
+    margin: 0 auto;
+    display: block;
+    background-color: #455F80;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    transition: .4s;
+}
+
+.ser-1 button:hover {
+	cursor: pointer;
+	color: black;
+}
+/*service end*/
+/*footer start*/
+.ending{
+	color: #95918E;
+	text-align: center; 
+	margin-top: 55px;
+}
+
+.ending img{
+
+}
+
+.ending p{
+	font-size: 12px;
+}
+/*footer end*/
